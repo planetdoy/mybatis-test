@@ -1,0 +1,21 @@
+mybatis:
+  type-aliases-package: kr.co.fastcampus.eatgo com.practice. kewfnp'eqnip'fnqpewg
+  mapper-locations: mybatis/mapper/**/*.xml
+
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+
+
+# 로그 형식으로 쿼리 보여주기
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: debug
